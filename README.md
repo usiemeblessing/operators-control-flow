@@ -15,10 +15,10 @@ Question 2
 
 -   ARITHMETIC OPERATORS
     -	Addition (+)
-    		-	let a = 10;
-    		-	let b = 20;
-    		-	let addition = a + b;
-    		-	console.log(addition); //output is 30
+    let a = 10;
+    let b = 20;
+    let addition = a + b;
+    console.log(addition); //output is 30
 
     -	Exponent (\*\*)
     let a = 2;
