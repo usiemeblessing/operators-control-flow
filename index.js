@@ -11,24 +11,21 @@
 //General Subjects: English, Mathematics.
 
 let studentName = "Bolatito";
-let classGroupArt = "Arts";
-let classGroupScience = "Science";
-let classGroupSocialScience = "Social Science";
 let generalSubjects = "English and Mathematics";
 
 let classGroup = "Arts";
 
-if (classGroup === classGroupArt) {
-	console.log(
-		`Hello ${studentName}, the subjects you will be taking are : Government, Economics, Literature, History, ${generalSubjects}`
-	);
-} else if (classGroup === classGroupScience) {
+if (classGroup === "Science") {
 	console.log(
 		`Hello ${studentName}, the subjects you will be taking are : Physics, Chemistry, Biology, Technical Drawing, ${generalSubjects}`
 	);
-} else if (classGroup === classGroupSocialScience) {
+} else if (classGroup === " Social Science") {
 	console.log(
-		`Hello ${studentName}, the subjects you will be taking are :Accounting, Commerce, Marketing, Geography, ${generalSubjects}`
+		`Hello ${studentName}, the subjects you will be taking are : Accounting, Commerce, Marketing, Geography, ${generalSubjects}`
+	);
+} else if (classGroup === "Arts") {
+	console.log(
+		`Hello ${studentName}, the subjects you will be taking are : Government, Economics, Literature, History, ${generalSubjects}`
 	);
 } else {
 	console.log(
