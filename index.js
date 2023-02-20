@@ -4,7 +4,7 @@
 
 /*Bolatito just got admitted into Greenfield High School. To commence Studies, she needs to know the subjects she will be taking as an Arts Student. 
 //Here is A Program to output the exact Subjects Bolatito will be taking as an Arts Students. All Students have to take General Subjects. 
-//In the case of an invalid class group, the output will be the General Subjects*/
+//In the case of an invalid class group, the output will be the General Subjects
 
 //The subjects for each class group are as follows:
 // Science Subjects: Physics, Chemistry, Biology, Technical Drawing
