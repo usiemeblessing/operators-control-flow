@@ -40,12 +40,11 @@ if (classGroup === "Science") {
 //The program stores the resulting value in power.
 // Logs out the answer in this format - "The number (pwr) is the power of 2 nearest to (num)".
 
-let num = 7; // the number to find the nearest power of 2 to
-let initialValue = 0; // the power of 2
+let num = 5; // the number to find the nearest power of 2 to
+let initialValue = 0; // the first number to raise to the power of 2
 
-while (Math.pow(2, initialValue) <= num) {
-	initialValue++;
+for (let initialValue = 0; initialValue <= 5; initialValue++) {
+	let pwr = (initialValue ** 2, initialValue - 1);
+	console.log(initialValue ** 2);
 }
-
-let pwr = Math.pow(2, initialValue - 1);
 console.log(`The number ${pwr} is the power of 2 nearest to ${num}`);
